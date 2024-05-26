@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgba(231, 229, 229, 0.574); /* Transparent black background */
+  padding: 10px 20px;
+  color: #040404;
+  z-index: 1000;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; /* Evenly spaced links */
+}
+
+.navbar-list li {
+  margin-right: 20px;
+}
+
+.navbar-list li:last-child {
+  margin-right: 0;
+}
+
+.navbar-list a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-list a:hover {
+  color: #ff2600; /* Change color on hover */
+}
+/* Center content styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Table styles */
+.table-container {
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd; /* Border for the entire table */
+}
+
+.table-container th,
+.table-container td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #333; /* Header background color */
+  color: #fff; /* Header text color */
+}
+
+.table-container td {
+  border: 1px solid #ddd; /* Border for table cells */
+}
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+/* styles.css */
+
+.form-container form > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-container form > div > label {
+  width: 150px; /* Adjust as needed */
+}
+
+.form-container form > div > input {
+  flex: 1;
+}
